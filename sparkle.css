@@ -2,12 +2,14 @@
   position: absolute;
   width: 6px;
   height: 6px;
-  background: white;
+  background: #6A0DAD;
   border-radius: 50%;
-  box-shadow: 0 0 10px white, 0 0 20px cyan;
+  box-shadow: 0 0 10px #A44CD7, 0 0 20px #6A0DAD;
   pointer-events: none;
   animation: sparkleAnim 0.6s ease-out forwards;
+  z-index: 9999;
 }
+
 @keyframes sparkleAnim {
   0% {
     opacity: 1;
