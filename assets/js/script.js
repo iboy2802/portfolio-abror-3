@@ -99,3 +99,19 @@
 	});
 
 })(jQuery);
+
+const music = document.getElementById("background-music");
+const musicBtn = document.getElementById("music-btn");
+
+let isPlaying = false;
+
+musicBtn.addEventListener("click", () => {
+  if (isPlaying) {
+    music.pause();
+    musicBtn.textContent = "🔈 Play Musik";
+  } else {
+    music.play();
+    musicBtn.textContent = "🔇 Pause Musik";
+  }
+  isPlaying = !isPlaying;
+});
