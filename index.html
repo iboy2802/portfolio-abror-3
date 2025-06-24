@@ -668,7 +668,29 @@
 <link rel="stylesheet" href="sparkle.css">
 <script src="sparkle.js"></script>
 
-  <button id="music-button">▶️ Mainkan Musik</button>
-<script src="js/music.js"></script>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website dengan Musik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button id="music-btn">🔈 Play Musik</button>
+  <audio id="background-music" loop>
+    <source src="assets/audio/backsound.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<audio controls autoplay loop>
+  <source src="assets/audio/backsound.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+
 
 </html>
