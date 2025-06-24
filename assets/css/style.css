@@ -2571,3 +2571,22 @@ p {
 	background-color: var(--primary);
 	color: var(--white);
 }
+
+#music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+#music-btn:hover {
+  background-color: #555;
+}
